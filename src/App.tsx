@@ -21,21 +21,16 @@ function App() {
       <Header />
       <Layout>
         <Routes>
-          <Route path="/dashboard" Component={Dashboard} />
-          
+          <Route path="/dashboard" Component={Dashboard} />       
           <Route path="/sales-order" Component={SalesOrder} />
           <Route path="/sales/delivery-note" Component={DeliveryNote} />
           <Route path="/sales/invoice" Component={SalesInvoice} />
           <Route path="/sales/return" Component={SalesReturn} />
-
-
           <Route path="/master-customers" Component={Customers} />
           <Route path="/master-account" Component={Account} />
-
           <Route path="/purchase-order" Component={PurchaseOrder} />
           <Route path="/purchase/invoice" Component={PurchaseInvoice} />
           <Route path="/purchase/return" Component={PurchaseReturn} />
-
         </Routes>
       </Layout>
     </Router>
